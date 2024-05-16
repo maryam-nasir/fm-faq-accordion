@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/maryam-nasir/fm-faq-accordion](https://github.com/maryam-nasir/fm-faq-accordion)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://fm-faq-accordion-two.vercel.app/](https://fm-faq-accordion-two.vercel.app/)
 
 ## My process
 
