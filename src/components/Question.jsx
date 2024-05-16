@@ -31,15 +31,10 @@ const Question = ({ id, question, answer }) => {
           alt={isSelected ? "Collapse icon" : "Expand icon"}
         />
       </div>
-      {isSelected && (
-        <p
-          className="text-grayishPurple mt-6"
-          id={`${id}-panel`}
-          aria-labelledby={`${id}-button`}
-        >
-          {answer}
-        </p>
-      )}
+
+      <div id={`${id}-panel`} aria-labelledby={`${id}-button`}>
+        {isSelected && <p className="text-grayishPurple mt-6">{answer}</p>}
+      </div>
     </div>
   );
 };
