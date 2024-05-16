@@ -8,6 +8,13 @@ export default {
         lightPink: "hsl(275, 100%, 97%)",
         grayishPurple: "hsl(292, 16%, 49%)",
         darkPurple: "hsl(292, 42%, 14%)",
+        purple: "#AD28EB",
+      },
+      backgroundImage: {
+        "desktop-pattern":
+          "url(/src/assets/images/background-pattern-desktop.svg)",
+        "mobile-pattern":
+          "url(/src/assets/images/background-pattern-mobile.svg)",
       },
     },
   },
