@@ -14,7 +14,6 @@ const Question = ({ id, question, answer }) => {
       <div
         className="flex items-center justify-between cursor-pointer"
         onClick={handleClick}
-        role="heading"
       >
         <h2>
           <button
