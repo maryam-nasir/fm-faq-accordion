@@ -31,7 +31,7 @@ const Question = ({ id, question, answer }) => {
         />
       </div>
 
-      <div id={`${id}-panel`} aria-labelledby={`${id}-button`}>
+      <div id={`${id}-panel`}>
         {isSelected && <p className="text-grayishPurple mt-6">{answer}</p>}
       </div>
     </div>
